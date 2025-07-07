@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Starbucks Korea</title>
+        <style>
+            /* .container {
+                max-width: 100%;
+                width: 100%;
+                height: 100%;
+                margin: 0 auto;
+            } */
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 25%;
+            }
+            header {
+                /* margin-left: 20%;
+                margin-right: 20%; */
+            }
+            .topbar {
+                width: 20%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                position: fixed;
+                top: 5px;
+                right: 32%;
+            }
+            .topbar a {
+                text-decoration: none;
+                color: inherit;
+                font-size: 9px;
+                /* margin-right: 10px; */
+            }
+            .flex {
+                width: 50%;
+                position: fixed;
+                top: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 100px;
+            }
+            .navbar {
+                width: 90%;
+                gap: 24px;
+                margin-top: 20px;
+                display: flex;
+                /* justify-content: space-around; */
+            }
+            .navbar a {
+                text-decoration: none;
+                color: inherit;
+                font-size: 10px;
+                /* margin-right: 15px; */
+            }
+            .navbar a:hover {
+                text-decoration: underline;
+                color: green;
+                background-color: rgb(53, 53, 53);
+            }
+            
+
+            .main-banner {
+                position: relative;
+                width: 100%;
+                height: 550px;
+                margin-top: 5%;
+                background-image: url('starbucks_main.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+            .overlay-text {
+                position: absolute;
+                top: 60%;
+                right: 47%;
+            }
+            .overlay-text a {
+                color: black;
+                background-color: beige;
+                padding: 5px 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <!-- 로고, 내비게이션, 상단 바 -->
+            <header>
+                <div class="topbar">
+                    <a href="#">Sign in</a>
+                    <a href="#">My Starbucks</a>
+                    <a href="#">Customer Service & Ideas</a>
+                    <a href="#">Find a Store</a>
+                    <img src="search_icon.png" alt="logo" width="20" height="20">
+                </div>
+                <div class="flex">
+                    <img src="starbucks_logo.png" alt="starbucks logo" width="53" height="55">
+                    <nav class="navbar">
+                        <a href="#">COFFEE</a>
+                        <a href="#">MENU</a>
+                        <a href="#">STORE</a>
+                        <a href="#">RESPONSIBILITY</a>
+                        <a href="#">STARBUCKS REWARDS</a>
+                        <a href="#">CORPORATE SALES</a>
+                        <a href="#">WHAT'S NEW</a>
+                    </nav>
+                </div>
+            </header>
+        </div>
+            <!-- 주요 콘텐츠 영역 -->
+            <main>
+                <section class="main-banner">
+                    <div class="overlay-text">
+                        <a href="#">자세히 보기</a>
+                    </div>
+                </section>
+                
+                <div class="container">
+                    <section class="event">
+                        <!-- 이벤트 배너 슬라이드 (공지사항 배너, 프로모션 배너) -->
+                    </section>
+                    <section class="rewards">
+                        <!-- 리워드 안내 -->
+                    </section>
+                    <section class="product">
+                        <!-- 제품 소개 + 이미지 -->
+                    </section>
+                    <section class="promotion">
+                        <!-- 프로모션 소개 + 이미지 -->
+                    </section>
+                    <section class="menu">
+                        <!-- 메뉴 소개 + 이미지 -->
+                    </section>
+                    <section class="magazine">
+                        <!-- 메거진 소개 + 이미지-->
+                    </section>
+                    <section class="find-a-store">
+                        <!-- 매장 찾기 + 이미지 -->
+                    </section>
+            </main>
+
+            <!-- 회사 정보 및 하단 메뉴 -->
+            <footer></footer>
+        </div>
+    </body>
+</html>
