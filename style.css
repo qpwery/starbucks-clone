@@ -1,0 +1,119 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25%;
+}
+
+.topbar {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 5px;
+    right: 32%;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 9px;
+    /* margin-right: 10px; */
+}
+
+.flex {
+    width: 50%;
+    height: 75px;
+    position: fixed;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+    z-index: 1001;
+}
+
+
+.navbar {
+    width: 90%;
+    margin-top: 20px;
+    /* display: flex; */
+}
+
+.navbar ul {
+    display: flex;
+    font-size: 10px;
+    padding: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.dropbtn {
+    /* display: inline; */
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.dropbtn:hover {
+    text-decoration: underline;
+    color: green;
+    background-color: rgb(53, 53, 53);
+}
+
+.dropdown {
+    position: relative; /* submenu 기준점 */
+}
+
+.navbar .submenu {
+    display: none;
+    position: absolute;
+    min-width: 500px;
+    top: 29px;
+    /* left: 0; */
+    background-color: rgb(53, 53, 53);
+    padding: 10px 0;
+    z-index: 1000;
+    justify-content: space-between;
+
+}
+
+.dropdown:hover .submenu {
+    display: flex;
+    /* align-items: center; */
+}
+
+.submenu li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.submenu li a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+
+.main-banner {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    margin-top: 5%;
+    background-image: url('images/starbucks_main.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+.overlay-text {
+    position: absolute;
+    top: 60%;
+    right: 47%;
+}
+.overlay-text a {
+    color: black;
+    background-color: beige;
+    padding: 5px 20px;
+}
