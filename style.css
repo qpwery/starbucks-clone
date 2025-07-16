@@ -96,6 +96,10 @@
     /* justify-content: space-between; */
 }
 
+.dropdown:hover .dropbtn {
+    color: green;
+    background-color: rgb(53, 53, 53);
+}
 
 .main-banner {
     position: relative;
