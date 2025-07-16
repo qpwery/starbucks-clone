@@ -14,6 +14,8 @@
 - HTML
 - CSS (외부 파일로 분리 완료)
 
+## 🔧 해결된 이슈
+- submenu hover 시 dropbtn 스타일이 사라지는 문제를 '.dropdown: hover . dropbtn'을 통해 CSS로 해결
 
 ## 🔍 학습하며 느낀 점
 - 배경 이미지 위에 텍스트를 올리는 구조에서 position 개념을 다시 익힘

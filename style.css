@@ -61,6 +61,12 @@
     background-color: rgb(53, 53, 53);
 }
 
+/* submenu hover 시, dropbtn hover 효과 유지 */
+.dropdown:hover .dropbtn { 
+    color: green;
+    background-color: rgb(53, 53, 53);
+}
+
 .dropdown {
     position: relative; /* submenu 기준점 */
 }
@@ -94,11 +100,6 @@
     text-decoration: none;
     /* display: flex; */
     /* justify-content: space-between; */
-}
-
-.dropdown:hover .dropbtn {
-    color: green;
-    background-color: rgb(53, 53, 53);
 }
 
 .main-banner {
