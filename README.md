@@ -9,6 +9,7 @@
 - 배경 이미지 위 텍스트 배치 (position)
 - 메뉴바 hover 효과 
 - submenu 기능 구현 (hover 시 펼쳐짐)
+- submenu 콘텐츠 내부 항목 grid 사용하여 정렬
 
 ## 🛠 기술 스택
 - HTML
